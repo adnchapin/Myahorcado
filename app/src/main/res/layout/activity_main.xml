@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intentos:  "
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/textView_nIntentos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5  "
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_palabraOculta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:text="ESTADO"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/texto_boton"
+        android:onClick="empezar"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Q"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="W"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="E"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="R"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="T"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Y"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="U"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="I"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="O"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="A"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="S"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="D"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="F"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="G"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="H"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="J"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="K"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="L"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="P"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Ñ"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Z"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="X"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="C"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="V"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="B"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="N"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+            <Button
+                android:onClick="Verificar"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="M"
+                android:background="@drawable/boton"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
